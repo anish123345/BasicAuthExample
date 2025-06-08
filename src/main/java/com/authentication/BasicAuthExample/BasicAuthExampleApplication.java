@@ -9,6 +9,7 @@ public class BasicAuthExampleApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BasicAuthExampleApplication.class, args);
 		//Running this application will start the Spring Boot application
+		//and the embedded server (like Tomcat) will be started.
 	}
 
 }
