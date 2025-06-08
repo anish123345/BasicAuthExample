@@ -56,6 +56,8 @@ public class UserCreationStoredInH2Database {
      *
      * @return PasswordEncoder - an instance of BCryptPasswordEncoder
      */
+
+    @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
