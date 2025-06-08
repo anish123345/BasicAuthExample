@@ -10,7 +10,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @Configuration
 public class InMemoryUserCreationWithRolesConfig {
 
-    @Bean
+    //@Bean
     public UserDetailsService userDetailsService() {
         UserDetails user1 = User
                 .withUsername("user1")
